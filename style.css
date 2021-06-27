@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    background-color:red ;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    
+}
+header h1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 45px;
+    order: 1;
+    flex-grow: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+header button{
+    background-color: yellow;
+    order: 2;
+    width: 70px;
+    border-radius: 45%;
+    
+}
+header h3{
+    padding-top: 15px;
+    color: white;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b5b5b5;
+
+}
+ul li{
+    list-style-type: none;
+    border-right: 1px solid #b5b5b5;
+    
+    padding: 0 15px 0 15px;
+    
+}
+ul li a{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    margin: 10px;
+
+    
+}
+.card-img-top{
+    padding-top: 8px;
+}
+.thumb{
+    display: flex;
+}
+.thumb img{
+    padding: 10px;
+    flex-grow: 1;
+}
+.thumb span{
+    flex-grow: 4;
+    padding: 15px;
+} 
+.thumb span h5{
+    
+}
+.hightlight{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid1{
+    display: flex;
+    flex-direction: row;
+}
+.single{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.deb1 h1{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #b5b5b5;
+}
+.divx{
+    border: 1px dashed black;
+    margin: 10px;
+}
+.div3{
+    padding-left: 5px;
+}
+.deb2{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b5b5b5
+}
+.deb2r{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.deb3{
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 1px solid #b5b5b5;
+}
+.deb3 img{
+    margin-right: 10px;
+}
+.divx h1{
+    margin: 10px;
+    color:#9A9A9A ;
+}
